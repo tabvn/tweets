@@ -1,0 +1,11 @@
+<ul{{ attributes }}>
+    {% for tweet in items %}
+        <li class="tweet">
+            <div class="tweet-message">
+                <span class="screen-name"><a
+                            href="{{ tweet.user_url }}">@{{ tweet.screen_name }}</a></span> {{ tweet.text }}
+            </div>
+            <div class="time">{% trans %}{{ tweet.time_ago }} ago{% endtrans %}</div>
+        </li>
+    {% endfor %}
+</ul>
