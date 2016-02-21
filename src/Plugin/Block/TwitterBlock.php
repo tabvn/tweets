@@ -45,25 +45,25 @@ class TwitterBlock extends BlockBase {
       '#type' => 'textfield',
       '#title' => $this->t('Access token'),
       '#description' => $this->t(''),
-      '#default_value' => isset($this->configuration['access_token']) ? $this->configuration['access_token'] : '66602651-TzUCJQZRfg8BRWaMV5Ts6paUMuO2ku8inAQNCSgno',
+      '#default_value' => isset($this->configuration['access_token']) ? $this->configuration['access_token'] : '',
     );
     $form['token_secret'] = array(
       '#type' => 'textfield',
       '#title' => $this->t('Token secret'),
       '#description' => $this->t(''),
-      '#default_value' => isset($this->configuration['token_secret']) ? $this->configuration['token_secret'] : 'p8gmfSO98CECsB0ytF1MbulHzKnASSQNpWxVqYMLEf8yS',
+      '#default_value' => isset($this->configuration['token_secret']) ? $this->configuration['token_secret'] : '',
     );
     $form['consumer_key'] = array(
       '#type' => 'textfield',
       '#title' => $this->t('Consumer key'),
       '#description' => $this->t(''),
-      '#default_value' => isset($this->configuration['consumer_key']) ? $this->configuration['consumer_key'] : 'CRJnoY0e7clONaH7XN6rDF49N',
+      '#default_value' => isset($this->configuration['consumer_key']) ? $this->configuration['consumer_key'] : '',
     );
     $form['consumer_secret'] = array(
       '#type' => 'textfield',
       '#title' => $this->t('Consumer secret'),
       '#description' => $this->t(''),
-      '#default_value' => isset($this->configuration['consumer_secret']) ? $this->configuration['consumer_secret'] : 'EBtR3pLy6RgKFyXpk0NIW7PnvDM21hj4aTim5pKoKPUe1HecSW',
+      '#default_value' => isset($this->configuration['consumer_secret']) ? $this->configuration['consumer_secret'] : '',
     );
     return $form;
   }
