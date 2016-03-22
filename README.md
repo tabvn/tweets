@@ -8,4 +8,4 @@ http://cloud.tabvn.com/1455639247.png
 
 Subscrive us on Facebook Page: https://www.facebook.com/TabvnGroup/
 
-* License: Free for your personal project. 
+#License: Free for your personal project. 
